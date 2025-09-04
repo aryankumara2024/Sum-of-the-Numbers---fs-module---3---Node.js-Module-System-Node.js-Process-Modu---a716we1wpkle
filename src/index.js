@@ -1,11 +1,9 @@
 const fs = require('fs');
 const data = fs.readFileSync('./src/input.txt', 'utf8').split('\n');
 
-const map = data.map(line => line.split(''));
+const map = data.map(line => line.split(' '));
 let sum = 0;
-map.forEach((line, i) => {
-    for (let j = 0; j < line.length; j++) {
-        sum += Number(line[j]);
-    }
+map.forEach((line) => {
+    sum += Number(line[1]);
 })
-fs.writeFileSync('./src/output.txt', sum);
+fs.writeFileSync('./src/output.txt', sum.toString(), 'utf-8');

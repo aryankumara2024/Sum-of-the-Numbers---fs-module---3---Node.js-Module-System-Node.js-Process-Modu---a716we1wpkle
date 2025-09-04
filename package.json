@@ -1,20 +1,29 @@
 {
     "name": "sum-of-numbers-fs-module-boilerplate",
     "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/aryankumara2024/Sum-of-the-Numbers---fs-module---3---Node.js-Module-System-Node.js-Process-Modu---a716we1wpkle#readme",
+    "bugs": {
+        "url": "https://github.com/aryankumara2024/Sum-of-the-Numbers---fs-module---3---Node.js-Module-System-Node.js-Process-Modu---a716we1wpkle/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aryankumara2024/Sum-of-the-Numbers---fs-module---3---Node.js-Module-System-Node.js-Process-Modu---a716we1wpkle.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
     "main": "src/index.js",
     "scripts": {
-      "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
-      "start": "node src/index.js"
+        "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+        "start": "node src/index.js"
     },
-    "author": "",
-    "license": "ISC",
-    "description": "",
     "dependencies": {
-      "mochawesome": "6.1.1"
+        "mochawesome": "6.1.1"
     },
     "devDependencies": {
-      "chai": "^4.2.0",
-      "chai-http": "^4.3.0",
-      "mocha": "^8.2.1"
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "mocha": "^8.2.1"
     }
-  }
+}
